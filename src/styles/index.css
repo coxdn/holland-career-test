@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+form {
+  background: white;
+  padding: 2em;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button[type="button"] {
+  background-color: #6c757d;
+}
+
+.option-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.option-button.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.gender-selection button,
+.navigation-buttons button {
+  margin-right: 1em;
+}
